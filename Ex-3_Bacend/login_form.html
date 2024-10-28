@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Login Page using Express</title>
+   <link rel="stylesheet" href="login_form.css">
+</head>
+
+<body>
+   <form action="http://127.0.0.1:8000/process2" method="post">
+      <p>
+         <label for="email">Email</label>
+         <input type="email" id="email" placeholder="Enter your email" name="email" required>
+      </p>
+      <p>
+         <label for="password">Password</label>
+         <input type="password" id="password" placeholder="Enter your Password" name="password" required>
+      </p>
+      <input type="submit" value="Login">
+   </form>
+   <p id="register">Back to ?
+      <a href="register.html"><input type="submit" value="Register"></a>
+   </p>
+</body>
+
+</html>
